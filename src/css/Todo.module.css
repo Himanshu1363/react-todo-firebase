@@ -1,0 +1,14 @@
+.todoFlex{
+    display: flex;
+    gap: 19px;
+}
+
+.taskDone:checked+p{
+    background-color: bisque;
+    padding: 0 3px;
+    text-decoration: line-through;
+}
+
+.todoFlex p {
+    margin: 8px 0;
+}
